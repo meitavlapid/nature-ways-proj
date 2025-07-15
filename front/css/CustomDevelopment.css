@@ -1,0 +1,52 @@
+.container {
+  direction: rtl;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Alef", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+video {
+  max-width: 60%;
+  height: auto;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bg {
+  background: #f4ede2 !important;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  margin: 2rem auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+.bg p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  direction: rtl;
+  text-align: right;
+}
+.bold
+{
+  font-weight: bold;
+}
+.btn {
+  width: 10.5vw;
+  text-align: center;
+  align-items: right;
+  display: flex;
+  justify-content: right;
+  gap: 0.5rem;  
+}

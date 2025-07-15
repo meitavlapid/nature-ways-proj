@@ -1,0 +1,96 @@
+.container-fluid {
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem;
+  direction: rtl;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.product-bg {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: #f4ede2;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.13);
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.product-bg h2 {
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.product-bg h5 {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.product-bg p,
+.product-bg li {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.img {
+  float: left; 
+  width: 300px;
+  max-width: 45%;
+  margin: 0 0 1rem 1rem;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.product-text {
+  flex: 1;
+  text-align: right;
+}
+.product-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.product-bg .btn {
+  margin: 0 0.5rem;
+  height: 40px;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .product-bg {
+    padding: 1rem;
+  }
+
+  .product-bg h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .product-bg img {
+    max-height: 220px;
+    margin-bottom: 1rem;
+  }
+
+  .product-bg ul {
+    padding-right: 1rem;
+  }
+
+  .product-bg .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

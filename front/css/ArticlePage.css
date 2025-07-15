@@ -1,0 +1,104 @@
+.article-page {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f4ede2;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+}
+.article-page p,
+.article-page .summary,
+.article-page .article-section p,
+.article-page .article-conclusion p,
+.article-page .article-biblio p {
+  white-space: pre-wrap;
+}
+.article-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.article-page .summary {
+  background-color: #fff;
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.article-page .article-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.article-page .article-section {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.article-page .article-conclusion,
+.article-page .article-biblio {
+  background-color: #ffffff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.article-page .article-conclusion h4,
+.article-page .article-biblio h4 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+.article-tag {
+  padding: 1rem 1.5rem;
+}
+
+.tag-label {
+  background-color:#8A5A42 ;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+  margin: 0.2rem;
+}
+
+
+.article-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.article-buttons .btn {
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}

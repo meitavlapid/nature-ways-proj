@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ברירת מחדל כללית לפסקאות, תיאורים ותפריטים */
+body,
+p,
+li,
+span,
+nav,
+input,
+textarea,
+select,
+footer {
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+h1 {
+  color: #4e643b;
+}
+/* כותרות ראשיות ובולטות */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alef", sans-serif;
+  margin-bottom: 1rem;
+}
+
+button,
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #4e643b;
+  color: #f4ede2;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #d7b98b;
+  color: #000;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* תיבות ותוכן */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  direction: rtl;
+  text-align: right;
+}
+
+/* כרטיסים / בלוקים */
+.card {
+  background-color: #f4ede2;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 1rem;
+    font-size: small;
+  }
+  .btn, button {
+    width: 95%;
+  }
+ 
+  
+}

@@ -1,0 +1,61 @@
+.edit-product-container {
+  max-width: 900px;
+  height: 100%;
+  margin: 2rem auto;
+  padding: 2rem ;
+  background-color: #f9f6f0;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  direction: rtl;
+}
+
+.edit-product-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.edit-product-container label {
+  font-weight: bold;
+}
+
+.edit-product-container input[type="text"],
+.edit-product-container textarea,
+.edit-product-container input[type="file"] {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.edit-product-container textarea {
+  resize: vertical;
+}
+
+.edit-product-container img.img-thumbnail {
+  border-radius: 12px;
+  margin-top: 0.5rem;
+}
+
+
+.edit-product-container hr {
+  margin: 2rem 0;
+}
+
+.add-section {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  align-items: center;
+ 
+}
+
+
+@media (max-width: 768px) {
+  .edit-product-container {
+    padding: 1rem;
+  }
+
+  .edit-product-container h2 {
+    font-size: 1.5rem;
+  }
+}

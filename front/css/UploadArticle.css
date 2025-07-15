@@ -1,0 +1,91 @@
+.upload-article-container {
+  max-width: 850px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f4ede2;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+  text-align: right;
+}
+
+.upload-article-container h2 {
+  margin-bottom: 2rem;
+  color: #4e643b;
+  text-align: center;
+}
+
+.upload-article-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.upload-article-container label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.upload-article-container input,
+.upload-article-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.upload-article-container img {
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.section-block {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.section-block input,
+.section-block textarea {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+.upload-article-container button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  background-color: #4e643b;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.tag-preview button {
+  border: none;
+  padding: 0;
+  margin: 0.2rem;
+  background-color: #4e643b00;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tag-preview {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-preview .tag-label {
+  background-color: #8a5a42;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
