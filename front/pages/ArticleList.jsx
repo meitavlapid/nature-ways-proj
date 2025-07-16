@@ -18,6 +18,10 @@ function ArticleList() {
       .then((res) => setArticles(res.data))
       .catch((err) => console.error("שגיאה בטעינת מאמרים:", err));
   }, []);
+  useEffect(() => {
+    document.body.style.overflow = showModal ? "hidden" : "auto";
+    return () => (document.body.style.overflow = "auto");
+  }, [showModal]);
 
   const filtered = searchTag
     ? articles.filter((a) =>
