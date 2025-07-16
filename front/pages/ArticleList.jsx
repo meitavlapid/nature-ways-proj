@@ -1,4 +1,3 @@
-// components/ArticleList.jsx
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import api from "../src/services/api";
@@ -96,7 +95,11 @@ function ArticleList() {
                       לצפייה
                     </Link>
                     {showModal && (
-                      <div className="custom-modal-backdrop">
+                      <div
+                        className={`custom-modal-backdrop ${
+                          showModal ? "show" : ""
+                        }`}
+                      >
                         <div className="custom-modal">
                           <h5>לצפייה במאמרים יש להתחבר או להירשם</h5>
                           <div className="modal-actions">

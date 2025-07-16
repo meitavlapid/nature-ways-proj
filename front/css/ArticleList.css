@@ -138,10 +138,19 @@
   max-width: 400px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   transform: scale(0.95);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .modal-actions {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
+}
+
+
+.custom-modal-backdrop.show .custom-modal {
+  transform: scale(1);
+  opacity: 1;
 }
